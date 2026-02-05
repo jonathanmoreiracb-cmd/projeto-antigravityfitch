@@ -5,6 +5,7 @@ import { formatCurrency } from '@/lib/utils';
 import Link from 'next/link';
 import AddToCartButton from '@/components/AddToCartButton';
 
+export const dynamic = 'force-dynamic';
 export const revalidate = 0; // Dynamic data
 
 interface SearchParamsProps {
